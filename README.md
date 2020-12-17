@@ -1,7 +1,7 @@
 # eDNA_spatial_temporal_variation
 Code and datasets from "Investigating temporal and spatial variation of eDNA in a nearshore rocky reef environment" by Taylor Ely, Paul H. Barber, and Zachary Gold. Decontamination code was written by Zack Gold and can also be found on his page  https://github.com/zjgold/gruinard_decon
 
-Decontamination
+Decontamination: 
 Decontamination was conducted using the gruinard_decon scripts modified to handle the presence of 2 separate sequencing projects. Negative and positive controls as well as all samples were included across both projects during the entire decontamination process. Data outputs from the MPA project were then separate post decontamination.
 
 Inputs
@@ -16,7 +16,7 @@ Hash File This file links the updated taxonomy to each ASV. Taxonomic assignment
 Outputs
 Outputs include the ASV.nested file which includes the raw ASV and read counts kept through each decontamination step, the ASV.Summary file which includes the counts of samples, ASVs, and reads retained at each step, the summarized .RDS and .CSV community-site tables, and general summary plots from the decontamination steps.
 
-Analysis
+Analysis: 
 Inputs
 taylor_pre_occupancy_results_sum.taxonomy_bio_reps_separate_eDNA_index.RDS - This file is a community-site table with columns as samples and rows as species. ASVs assigned to the same taxonomic rank had reads summed together prior to eDNA index calculations. 
 
