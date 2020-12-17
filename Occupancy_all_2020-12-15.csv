@@ -1,0 +1,755 @@
+"seq_number","Project","ndetections","max_Occupancy_prob","sum.taxonomy"
+"merged_fishcard_12S_all_1","Taylor",33,0.999999883835049,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_10","Taylor",29,0.999995461000972,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_100","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;;;"
+"merged_fishcard_12S_all_1001","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_1002","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1003","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1004","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Chondrichthyes;Pristiformes/Rhiniformes group;Rhinobatidae;Pseudobatos;Pseudobatos productus"
+"merged_fishcard_12S_all_1005","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1006","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_1007","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica"
+"merged_fishcard_12S_all_101","Taylor",9,0.893546946915494,NA
+"merged_fishcard_12S_all_1015","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Rodentia;Cricetidae;Peromyscus;Peromyscus maniculatus"
+"merged_fishcard_12S_all_1016","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_1017","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_102","Taylor",4,0.715713817592095,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_1020","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Aves;Charadriiformes;Laridae;Larus;Larus occidentalis"
+"merged_fishcard_12S_all_1021","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1022","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1023","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1024","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1026","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_1027","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys coenosus"
+"merged_fishcard_12S_all_1028","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1029","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_103","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1030","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1031","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_1036","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1037","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1038","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1039","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_104","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Sarda;Sarda chiliensis"
+"merged_fishcard_12S_all_1040","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_1044","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_1045","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1046","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_1047","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_1048","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_1049","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_105","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_1050","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_1051","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_1052","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens"
+"merged_fishcard_12S_all_1054","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1055","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_1056","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_1057","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1058","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_106","Taylor",28,0.999959311351987,NA
+"merged_fishcard_12S_all_1062","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_1063","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_107","Taylor",7,0.830812408311128,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys coenosus"
+"merged_fishcard_12S_all_108","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_109","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_11","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_110","Taylor",15,0.979406053250658,NA
+"merged_fishcard_12S_all_111","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax"
+"merged_fishcard_12S_all_112","Taylor",6,0.802396160540849,"Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens"
+"merged_fishcard_12S_all_114","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus"
+"merged_fishcard_12S_all_115","Taylor",22,0.998951283939722,NA
+"merged_fishcard_12S_all_116","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_117","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_118","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata"
+"merged_fishcard_12S_all_119","Taylor",13,0.965099160379335,NA
+"merged_fishcard_12S_all_12","Taylor",7,0.830812408311128,"Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena argentea"
+"merged_fishcard_12S_all_120","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_123","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Syngnathiformes;Centriscidae;Macroramphosus;"
+"merged_fishcard_12S_all_124","Taylor",26,0.99981339208604,NA
+"merged_fishcard_12S_all_125","Taylor",13,0.965099160379335,NA
+"merged_fishcard_12S_all_126","Taylor",18,0.992570076514124,NA
+"merged_fishcard_12S_all_127","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_128","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;"
+"merged_fishcard_12S_all_129","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_13","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_130","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_131","Taylor",25,0.999688068014849,NA
+"merged_fishcard_12S_all_132","Taylor",14,0.968434899515157,NA
+"merged_fishcard_12S_all_135","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_136","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;"
+"merged_fishcard_12S_all_137","Taylor",29,0.999995461000972,NA
+"merged_fishcard_12S_all_138","Taylor",20,0.996701460025119,NA
+"merged_fishcard_12S_all_139","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_14","Taylor",16,0.983823077932364,"Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus"
+"merged_fishcard_12S_all_140","Taylor",32,0.999994589018844,NA
+"merged_fishcard_12S_all_143","Taylor",30,0.999999343897505,NA
+"merged_fishcard_12S_all_144","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_146","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_147","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax"
+"merged_fishcard_12S_all_148","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Molidae;Mola;Mola mola"
+"merged_fishcard_12S_all_15","Taylor",8,0.869528477368332,"Eukaryota;Chordata;Actinopteri;Cypriniformes;Cyprinidae;Ctenopharyngodon;Ctenopharyngodon idella"
+"merged_fishcard_12S_all_150","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_151","Taylor",12,0.95201303927824,NA
+"merged_fishcard_12S_all_152","Taylor",12,0.95201303927824,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaenodes;Scorpaenodes xyris"
+"merged_fishcard_12S_all_153","Taylor",21,0.997652448519003,NA
+"merged_fishcard_12S_all_154","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_155","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_156","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Decapterus;Decapterus muroadsi"
+"merged_fishcard_12S_all_157","Taylor",29,0.999995461000972,NA
+"merged_fishcard_12S_all_158","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;"
+"merged_fishcard_12S_all_159","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_16","Taylor",29,0.999995461000972,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;"
+"merged_fishcard_12S_all_160","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_161","Taylor",19,0.994804103787489,NA
+"merged_fishcard_12S_all_162","Taylor",13,0.965099160379335,NA
+"merged_fishcard_12S_all_163","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_164","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus"
+"merged_fishcard_12S_all_165","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_166","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_167","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_169","Taylor",14,0.968434899515157,NA
+"merged_fishcard_12S_all_17","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_170","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_171","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Ophidiiformes;Bythitidae;Cataetyx;Cataetyx rubrirostris"
+"merged_fishcard_12S_all_173","Taylor",22,0.998951283939722,NA
+"merged_fishcard_12S_all_174","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_175","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_176","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon"
+"merged_fishcard_12S_all_177","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Rimicola;Rimicola muscarum"
+"merged_fishcard_12S_all_178","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Choerodon;Choerodon anchorago"
+"merged_fishcard_12S_all_179","Taylor",32,0.999994589018844,NA
+"merged_fishcard_12S_all_18","Taylor",36,0.999999999998287,"Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis"
+"merged_fishcard_12S_all_181","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_183","Taylor",20,0.996701460025119,NA
+"merged_fishcard_12S_all_184","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_186","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Amblygaster;Amblygaster sirm"
+"merged_fishcard_12S_all_187","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_188","Taylor",26,0.99981339208604,NA
+"merged_fishcard_12S_all_19","Taylor",12,0.95201303927824,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_190","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Syngnathiformes;Syngnathidae;Syngnathus;Syngnathus leptorhynchus"
+"merged_fishcard_12S_all_191","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax"
+"merged_fishcard_12S_all_192","Taylor",4,0.715713817592095,"Eukaryota;Chordata;Actinopteri;Anguilliformes;;;"
+"merged_fishcard_12S_all_193","Taylor",31,0.999998786318631,NA
+"merged_fishcard_12S_all_194","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_195","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_196","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_198","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_199","Taylor",13,0.965099160379335,NA
+"merged_fishcard_12S_all_2","Taylor",16,0.983823077932364,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_20","Taylor",23,0.999146959955164,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_200","Taylor",10,0.909231650674222,NA
+"merged_fishcard_12S_all_203","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Caranx;"
+"merged_fishcard_12S_all_205","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_206","Taylor",10,0.909231650674222,NA
+"merged_fishcard_12S_all_207","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;"
+"merged_fishcard_12S_all_208","Taylor",22,0.998951283939722,NA
+"merged_fishcard_12S_all_209","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_21","Taylor",24,0.999515743553185,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus"
+"merged_fishcard_12S_all_210","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Haemulidae;Microlepidotus;Microlepidotus inornatus"
+"merged_fishcard_12S_all_211","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus"
+"merged_fishcard_12S_all_212","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_213","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens"
+"merged_fishcard_12S_all_215","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_216","Taylor",11,0.936658740177059,NA
+"merged_fishcard_12S_all_217","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_218","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Scarus;Scarus niger"
+"merged_fishcard_12S_all_219","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_22","Taylor",33,0.999999883835049,NA
+"merged_fishcard_12S_all_220","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_221","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_222","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_223","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_224","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Acanthuriformes;Acanthuridae;Acanthurus;Acanthurus xanthopterus"
+"merged_fishcard_12S_all_225","Taylor",11,0.936658740177059,NA
+"merged_fishcard_12S_all_227","Taylor",18,0.992570076514124,NA
+"merged_fishcard_12S_all_228","Taylor",14,0.968434899515157,NA
+"merged_fishcard_12S_all_229","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;;;"
+"merged_fishcard_12S_all_23","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_231","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Caranx;"
+"merged_fishcard_12S_all_232","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_233","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_234","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea"
+"merged_fishcard_12S_all_235","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_236","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_237","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea"
+"merged_fishcard_12S_all_238","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_24","Taylor",17,0.989910153229993,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Blenniidae;Hypsoblennius;Hypsoblennius jenkinsi"
+"merged_fishcard_12S_all_240","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_242","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Stichaeidae;Chirolophis;Chirolophis decoratus"
+"merged_fishcard_12S_all_243","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_244","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_245","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_246","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_247","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_248","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_25","Taylor",17,0.989910153229993,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_250","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Dasyatidae;Pteroplatytrygon;Pteroplatytrygon violacea"
+"merged_fishcard_12S_all_251","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi"
+"merged_fishcard_12S_all_252","Taylor",17,0.989910153229993,NA
+"merged_fishcard_12S_all_253","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_254","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Leuresthes;Leuresthes tenuis"
+"merged_fishcard_12S_all_255","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Paraclinus;Paraclinus integripinnis"
+"merged_fishcard_12S_all_256","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Clinocottus;Clinocottus analis"
+"merged_fishcard_12S_all_257","Taylor",17,0.989910153229993,NA
+"merged_fishcard_12S_all_258","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Aves;Galliformes;Phasianidae;Gallus;Gallus gallus"
+"merged_fishcard_12S_all_259","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_260","Taylor",13,0.965099160379335,NA
+"merged_fishcard_12S_all_261","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_264","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_265","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_266","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_267","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni"
+"merged_fishcard_12S_all_268","Taylor",27,0.999811625145236,NA
+"merged_fishcard_12S_all_269","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_27","Taylor",21,0.997652448519003,NA
+"merged_fishcard_12S_all_270","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_271","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis"
+"merged_fishcard_12S_all_273","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_275","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_277","Taylor",20,0.996701460025119,NA
+"merged_fishcard_12S_all_278","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_28","Taylor",32,0.999994589018844,NA
+"merged_fishcard_12S_all_280","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_281","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Melichthys;Melichthys niger"
+"merged_fishcard_12S_all_283","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_285","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_287","Taylor",14,0.968434899515157,NA
+"merged_fishcard_12S_all_289","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_29","Taylor",15,0.979406053250658,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus"
+"merged_fishcard_12S_all_290","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_291","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;;;"
+"merged_fishcard_12S_all_292","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_296","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Beloniformes;Belonidae;Cololabis;Cololabis saira"
+"merged_fishcard_12S_all_299","Taylor",9,0.893546946915494,NA
+"merged_fishcard_12S_all_3","Taylor",34,0.99999999966004,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_30","Taylor",34,0.99999999966004,NA
+"merged_fishcard_12S_all_301","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata"
+"merged_fishcard_12S_all_303","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_304","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_305","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_306","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_307","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_309","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_31","Taylor",25,0.999688068014849,NA
+"merged_fishcard_12S_all_310","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_311","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_312","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_313","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_314","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_315","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_316","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Acanthuriformes;Acanthuridae;Acanthurus;Acanthurus xanthopterus"
+"merged_fishcard_12S_all_318","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus"
+"merged_fishcard_12S_all_319","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_32","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_321","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_322","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_324","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_325","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_326","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Paraclinus;Paraclinus integripinnis"
+"merged_fishcard_12S_all_328","Taylor",18,0.992570076514124,NA
+"merged_fishcard_12S_all_329","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_33","Taylor",34,0.99999999966004,NA
+"merged_fishcard_12S_all_330","Taylor",10,0.909231650674222,"Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica"
+"merged_fishcard_12S_all_331","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_335","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_336","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_337","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_339","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_34","Taylor",8,0.869528477368332,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_340","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_341","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_342","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_343","Taylor",18,0.992570076514124,NA
+"merged_fishcard_12S_all_345","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_346","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Thunnus;Thunnus alalunga"
+"merged_fishcard_12S_all_347","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Caranx;"
+"merged_fishcard_12S_all_348","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Typhlogobius;Typhlogobius californiensis"
+"merged_fishcard_12S_all_35","Taylor",12,0.95201303927824,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Paraclinus;Paraclinus integripinnis"
+"merged_fishcard_12S_all_352","Taylor",15,0.979406053250658,NA
+"merged_fishcard_12S_all_353","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_355","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_356","Taylor",12,0.95201303927824,NA
+"merged_fishcard_12S_all_358","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;"
+"merged_fishcard_12S_all_359","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Agonidae;;"
+"merged_fishcard_12S_all_360","Taylor",11,0.936658740177059,NA
+"merged_fishcard_12S_all_361","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_362","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_363","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_365","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_366","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Amblygaster;Amblygaster sirm"
+"merged_fishcard_12S_all_367","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_368","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_37","Taylor",11,0.936658740177059,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_371","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;"
+"merged_fishcard_12S_all_373","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_375","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_376","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi"
+"merged_fishcard_12S_all_377","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_378","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_38","Taylor",8,0.869528477368332,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Paraclinus;Paraclinus integripinnis"
+"merged_fishcard_12S_all_380","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_381","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_382","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_383","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_384","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_386","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_388","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;"
+"merged_fishcard_12S_all_389","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Amblygaster;Amblygaster sirm"
+"merged_fishcard_12S_all_39","Taylor",16,0.983823077932364,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Haemulidae;Anisotremus;Anisotremus davidsonii"
+"merged_fishcard_12S_all_390","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_391","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_392","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_394","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Acanthuriformes;Luvaridae;Luvarus;Luvarus imperialis"
+"merged_fishcard_12S_all_395","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus fasciatus"
+"merged_fishcard_12S_all_397","Taylor",16,0.983823077932364,"Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Urolophidae;Urolophus;Urolophus halleri"
+"merged_fishcard_12S_all_399","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_4","Taylor",34,0.99999999966004,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_40","Taylor",11,0.936658740177059,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea"
+"merged_fishcard_12S_all_401","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_402","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_405","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_407","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_408","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_409","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon"
+"merged_fishcard_12S_all_41","Taylor",35,0.999999999658683,NA
+"merged_fishcard_12S_all_411","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_412","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_414","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_415","Taylor",10,0.909231650674222,NA
+"merged_fishcard_12S_all_416","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon"
+"merged_fishcard_12S_all_417","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_42","Taylor",33,0.999999883835049,NA
+"merged_fishcard_12S_all_420","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_421","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Cypriniformes;Cyprinidae;Ctenopharyngodon;Ctenopharyngodon idella"
+"merged_fishcard_12S_all_422","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_424","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_425","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_426","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_428","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;Pomacentridae;Azurina;Azurina hirundo"
+"merged_fishcard_12S_all_429","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_43","Taylor",7,0.830812408311128,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi"
+"merged_fishcard_12S_all_430","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_431","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_432","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_433","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus"
+"merged_fishcard_12S_all_434","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_435","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_436","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_438","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_44","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_440","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_442","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_444","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_445","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_446","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_447","Taylor",15,0.979406053250658,NA
+"merged_fishcard_12S_all_449","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax nebulifer"
+"merged_fishcard_12S_all_45","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_450","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_451","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_452","Taylor",15,0.979406053250658,"Eukaryota;Chordata;Chondrichthyes;Heterodontiformes;Heterodontidae;Heterodontus;Heterodontus francisci"
+"merged_fishcard_12S_all_454","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Istiophoriformes;Xiphiidae;Xiphias;Xiphias gladius"
+"merged_fishcard_12S_all_455","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Syngnathiformes;Mullidae;Pseudupeneus;Pseudupeneus grandisquamis"
+"merged_fishcard_12S_all_456","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_458","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_459","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea"
+"merged_fishcard_12S_all_46","Taylor",9,0.893546946915494,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_460","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_461","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_462","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_463","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_464","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_465","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_466","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_468","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;Mycteroperca xenarcha"
+"merged_fishcard_12S_all_47","Taylor",33,0.999999883835049,NA
+"merged_fishcard_12S_all_470","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_472","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_473","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus"
+"merged_fishcard_12S_all_475","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi"
+"merged_fishcard_12S_all_476","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_477","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_478","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_479","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_48","Taylor",20,0.996701460025119,NA
+"merged_fishcard_12S_all_480","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_481","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_482","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_484","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Sarda;Sarda chiliensis"
+"merged_fishcard_12S_all_485","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_486","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Artiodactyla;Bovidae;Bos;Bos taurus"
+"merged_fishcard_12S_all_487","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus novemfasciatus"
+"merged_fishcard_12S_all_488","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_489","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;"
+"merged_fishcard_12S_all_49","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_490","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata"
+"merged_fishcard_12S_all_492","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_493","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_494","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_495","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_496","Taylor",7,0.830812408311128,NA
+"merged_fishcard_12S_all_497","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_499","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_5","Taylor",32,0.999994589018844,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_50","Taylor",9,0.893546946915494,"Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Typhlogobius;Typhlogobius californiensis"
+"merged_fishcard_12S_all_501","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_503","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_504","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_509","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Haemulidae;Brachygenys;Xenistius californiensis"
+"merged_fishcard_12S_all_51","Taylor",35,0.999999999658683,NA
+"merged_fishcard_12S_all_510","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_511","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_514","Taylor",15,0.979406053250658,NA
+"merged_fishcard_12S_all_515","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Chaetodontiformes;Chaetodontidae;Chaetodon;Chaetodon humeralis"
+"merged_fishcard_12S_all_516","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus novemfasciatus"
+"merged_fishcard_12S_all_518","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Nettastomatidae;Facciolella;Facciolella gilbertii"
+"merged_fishcard_12S_all_519","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi"
+"merged_fishcard_12S_all_52","Taylor",35,0.999999999658683,NA
+"merged_fishcard_12S_all_521","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_522","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_523","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_526","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_527","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Choerodon;Choerodon anchorago"
+"merged_fishcard_12S_all_53","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_531","Taylor",6,0.802396160540849,NA
+"merged_fishcard_12S_all_532","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_534","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_535","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Alloclinus;Alloclinus holderi"
+"merged_fishcard_12S_all_536","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_540","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_541","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_543","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_544","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_545","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_547","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_548","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Rhinogobiops;Rhinogobiops nicholsii"
+"merged_fishcard_12S_all_549","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;NA;Sciaenidae;Umbrina;Umbrina roncador"
+"merged_fishcard_12S_all_55","Taylor",34,0.99999999966004,NA
+"merged_fishcard_12S_all_551","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_552","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_553","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_554","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_555","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_557","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_56","Taylor",10,0.909231650674222,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata"
+"merged_fishcard_12S_all_560","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_561","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;"
+"merged_fishcard_12S_all_562","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha"
+"merged_fishcard_12S_all_563","Taylor",10,0.909231650674222,NA
+"merged_fishcard_12S_all_564","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_565","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_566","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_57","Taylor",8,0.869528477368332,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon"
+"merged_fishcard_12S_all_570","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_573","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_574","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_575","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_576","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_577","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;"
+"merged_fishcard_12S_all_578","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_579","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_58","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_581","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis alta"
+"merged_fishcard_12S_all_583","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon"
+"merged_fishcard_12S_all_585","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_587","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_588","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_589","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;"
+"merged_fishcard_12S_all_59","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri"
+"merged_fishcard_12S_all_591","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_592","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_593","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_594","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Amblygaster;Amblygaster sirm"
+"merged_fishcard_12S_all_597","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;"
+"merged_fishcard_12S_all_599","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_6","Taylor",12,0.95201303927824,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_60","Taylor",11,0.936658740177059,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_601","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_603","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_604","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Dussumieriidae;Etrumeus;Etrumeus teres"
+"merged_fishcard_12S_all_606","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_608","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_609","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea"
+"merged_fishcard_12S_all_612","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;"
+"merged_fishcard_12S_all_613","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_615","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_617","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_618","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_619","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Dussumieriidae;Etrumeus;Etrumeus teres"
+"merged_fishcard_12S_all_62","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_621","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;;;"
+"merged_fishcard_12S_all_622","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_623","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Chaetodontiformes;Chaetodontidae;Chaetodon;Chaetodon humeralis"
+"merged_fishcard_12S_all_625","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_626","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_627","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_628","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_63","Taylor",18,0.992570076514124,NA
+"merged_fishcard_12S_all_632","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus"
+"merged_fishcard_12S_all_633","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_634","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_635","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Anoplopomatidae;Anoplopoma;Anoplopoma fimbria"
+"merged_fishcard_12S_all_638","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_639","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata"
+"merged_fishcard_12S_all_64","Taylor",5,0.763631672827674,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Alloclinus;Alloclinus holderi"
+"merged_fishcard_12S_all_641","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_644","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_646","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_648","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Cynoglossidae;Symphurus;Symphurus atricaudus"
+"merged_fishcard_12S_all_65","Taylor",22,0.998951283939722,NA
+"merged_fishcard_12S_all_651","Taylor",8,0.869528477368332,NA
+"merged_fishcard_12S_all_652","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_654","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_655","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;Mycteroperca jordani"
+"merged_fishcard_12S_all_657","Taylor",9,0.893546946915494,NA
+"merged_fishcard_12S_all_658","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_659","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_66","Taylor",17,0.989910153229993,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti"
+"merged_fishcard_12S_all_660","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;;"
+"merged_fishcard_12S_all_661","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_662","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_665","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_667","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_668","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_669","Taylor",4,0.715713817592095,"Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens"
+"merged_fishcard_12S_all_67","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys stigmaeus"
+"merged_fishcard_12S_all_670","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_671","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_672","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_673","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_674","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_676","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Chondrichthyes;Orectolobiformes;Rhincodontidae;Rhincodon;Rhincodon typus"
+"merged_fishcard_12S_all_678","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_68","Taylor",11,0.936658740177059,"Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Scomber;Scomber japonicus"
+"merged_fishcard_12S_all_681","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_684","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_686","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_687","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax"
+"merged_fishcard_12S_all_688","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Acanthuriformes;Luvaridae;Luvarus;Luvarus imperialis"
+"merged_fishcard_12S_all_689","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_690","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_691","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_692","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Tetraodontidae;Canthigaster;Canthigaster solandri"
+"merged_fishcard_12S_all_694","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_696","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_698","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_7","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_70","Taylor",5,0.763631672827674,"Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus"
+"merged_fishcard_12S_all_700","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_704","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_705","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_708","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_709","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_71","Taylor",35,0.999999999658683,NA
+"merged_fishcard_12S_all_710","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax"
+"merged_fishcard_12S_all_711","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_712","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_714","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_717","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_718","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_719","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_72","Taylor",21,0.997652448519003,NA
+"merged_fishcard_12S_all_720","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_721","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_723","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_724","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_727","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Spariformes;Nemipteridae;Pentapodus;Pentapodus bifasciatus"
+"merged_fishcard_12S_all_729","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_73","Taylor",4,0.715713817592095,"Eukaryota;Chordata;Actinopteri;Beloniformes;Exocoetidae;Cheilopogon;Cheilopogon pinnatibarbatus"
+"merged_fishcard_12S_all_730","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_732","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Blenniidae;Hypsoblennius;Hypsoblennius jenkinsi"
+"merged_fishcard_12S_all_734","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_735","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Choerodon;Choerodon anchorago"
+"merged_fishcard_12S_all_736","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_737","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_74","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;NA;Malacanthidae;Caulolatilus;Caulolatilus princeps"
+"merged_fishcard_12S_all_740","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_741","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_742","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_745","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_746","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_748","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_749","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata"
+"merged_fishcard_12S_all_75","Taylor",18,0.992570076514124,NA
+"merged_fishcard_12S_all_750","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_751","Taylor",10,0.909231650674222,NA
+"merged_fishcard_12S_all_752","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus"
+"merged_fishcard_12S_all_757","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_758","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_759","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_76","Taylor",30,0.999999343897505,NA
+"merged_fishcard_12S_all_760","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_761","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_762","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_763","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_764","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_765","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_766","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_768","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_770","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_771","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_774","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Mammalia;Carnivora;Otariidae;Zalophus;Zalophus californianus"
+"merged_fishcard_12S_all_775","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_776","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_779","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_78","Taylor",21,0.997652448519003,NA
+"merged_fishcard_12S_all_781","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Clinocottus;Clinocottus analis"
+"merged_fishcard_12S_all_784","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis"
+"merged_fishcard_12S_all_787","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys coenosus"
+"merged_fishcard_12S_all_788","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_789","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_79","Taylor",5,0.763631672827674,"Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus"
+"merged_fishcard_12S_all_790","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_793","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_794","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_795","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_796","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_797","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_798","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaenodes;Scorpaenodes xyris"
+"merged_fishcard_12S_all_8","Taylor",4,0.715713817592095,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica"
+"merged_fishcard_12S_all_80","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus"
+"merged_fishcard_12S_all_800","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_801","Taylor",5,0.763631672827674,NA
+"merged_fishcard_12S_all_802","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax"
+"merged_fishcard_12S_all_803","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_805","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_806","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_807","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_808","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_81","Taylor",30,0.999999343897505,NA
+"merged_fishcard_12S_all_810","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_812","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_813","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_817","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_819","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_82","Taylor",24,0.999515743553185,NA
+"merged_fishcard_12S_all_820","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_822","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_823","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_825","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_826","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_827","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_828","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_83","Taylor",6,0.802396160540849,"Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon"
+"merged_fishcard_12S_all_831","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_832","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_833","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_834","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_837","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_838","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_839","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_84","Taylor",28,0.999959311351987,NA
+"merged_fishcard_12S_all_842","Taylor",3,0.681772184882116,NA
+"merged_fishcard_12S_all_843","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_844","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;;;;"
+"merged_fishcard_12S_all_847","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_849","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_85","Taylor",9,0.893546946915494,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus"
+"merged_fishcard_12S_all_850","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_852","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_853","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;;;"
+"merged_fishcard_12S_all_855","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_856","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_858","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;"
+"merged_fishcard_12S_all_86","Taylor",31,0.999998786318631,NA
+"merged_fishcard_12S_all_860","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Lythrypnus;Lythrypnus zebra"
+"merged_fishcard_12S_all_862","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_863","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_866","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_867","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_868","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_869","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_87","Taylor",20,0.996701460025119,NA
+"merged_fishcard_12S_all_870","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_872","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_875","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_876","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_877","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_878","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_879","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_88","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Kurtiformes;Apogonidae;Apogon;Apogon guadalupensis"
+"merged_fishcard_12S_all_882","Taylor",4,0.715713817592095,NA
+"merged_fishcard_12S_all_883","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_884","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_885","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_886","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_888","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_889","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_890","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_891","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_892","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Chondrichthyes;Carcharhiniformes;Scyliorhinidae;Cephaloscyllium;Cephaloscyllium ventriosum"
+"merged_fishcard_12S_all_893","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_896","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_897","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_90","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;"
+"merged_fishcard_12S_all_900","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_901","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_903","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_904","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_906","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_909","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Melichthys;Melichthys niger"
+"merged_fishcard_12S_all_91","Taylor",36,0.999999999998287,NA
+"merged_fishcard_12S_all_914","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_915","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_916","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_917","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_918","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_921","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_922","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_924","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_929","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Artiodactyla;Suidae;Sus;Sus scrofa"
+"merged_fishcard_12S_all_930","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_933","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_934","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_935","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_936","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_938","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_939","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_94","Taylor",26,0.99981339208604,NA
+"merged_fishcard_12S_all_940","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_943","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_944","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_945","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher"
+"merged_fishcard_12S_all_948","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;Grampus;Grampus griseus"
+"merged_fishcard_12S_all_949","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_95","Taylor",3,0.681772184882116,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_950","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_951","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_953","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_954","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_957","Taylor",2,0.653403595210957,NA
+"merged_fishcard_12S_all_958","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_959","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Aves;Charadriiformes;Laridae;Larus;"
+"merged_fishcard_12S_all_96","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;"
+"merged_fishcard_12S_all_960","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_961","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_962","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_963","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_964","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_967","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_968","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_969","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_97","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys stigmaeus"
+"merged_fishcard_12S_all_971","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus"
+"merged_fishcard_12S_all_972","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans"
+"merged_fishcard_12S_all_973","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_978","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis"
+"merged_fishcard_12S_all_979","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_98","Taylor",4,0.715713817592095,"Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus"
+"merged_fishcard_12S_all_980","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_984","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Lythrypnus;Lythrypnus zebra"
+"merged_fishcard_12S_all_985","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_986","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_987","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_988","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_989","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_99","Taylor",2,0.653403595210957,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Dussumieriidae;Etrumeus;Etrumeus teres"
+"merged_fishcard_12S_all_990","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_991","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens"
+"merged_fishcard_12S_all_992","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_994","Taylor",1,0.644483826915621,NA
+"merged_fishcard_12S_all_995","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus"
+"merged_fishcard_12S_all_996","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Spratelloides;Spratelloides delicatulus"
+"merged_fishcard_12S_all_997","Taylor",1,0.644483826915621,"Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;;"
+"merged_fishcard_12S_all_998","Taylor",1,0.644483826915621,NA

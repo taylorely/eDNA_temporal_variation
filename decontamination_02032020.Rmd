@@ -1,0 +1,676 @@
+---
+title: "Denoising and decontaminating v2"
+output: html_notebook
+date: 11-17-2019
+Author: Ramon Gallego
+edited by: Zack Gold
+---
+After running the demultiplexer_for_dada2 (http://github.com/ramongallego/demultiplexer_for_dada2), we have to denoise the whole dataset. We will do this by using 4 different processes:
+
+
+  * **Estimation of *Tag-jumping* or indices *cross-talk* **. We run multiple samples on each MiSeq run. These are identified by two sets of molecular barcodes. There is the potential of some sequences to be assigned to the wrong sample, which is a bummer. To estimate how many reads did this, on each MiSeq run we added some samples whose composition is known and extremely unlikely to be present in the enviromental samples studied. AS a result of this **Tag-jumping**, some of the positive control sequences might show in the environmental samples and viceversa. In our case, these positive controls are made of either Kangaroo or Ostrich (and Alligator). The process consists on, for each run, to model the compositon observed on the positive controls and substract it from the environmental samples from that run. The output will be a dataset with the same number of samples as before, but with fewer reads of certain sequences (ASVs)
+  
+  * **Discarding samples with extremely low number of reads**. Sometimes the number of reads sequenced from a particular replicate are really low, and hence the relative proportions of ASVs would be skewed. 
+  
+  * **Full clearance from Positive control influence**. THis process also takes advantage of the known composition of the positive controls. Each ASV found in the positive controls with a higher abundace in them than in the rest of the samples will be labelled as  **Positive** and removed from the environmental dataset. The output will be a dataset with the same number of samples as before but with fewer ASVs.
+  
+  * **Occupancy modelling** . Is the presence of a ASV a reflection of a biological reality or likely a PCR artifact? This may seem trivial in extreme cases (an ASV that only appears in one PCR replicate in the whole dataset) but how to discriminate between PCR artifacts from rare but real organisms? We use Occupancy modelling to determine if the pattern of presence of a ASV in a dataset reflects that. The output of this procedure will be a datasetwith the same number of samples as before but with fewer ASVs.
+  
+  * **Dissimilarity between PCR replicates**. The workflow that leads to the sequencing of a particular sample is subject to many stochatic processes, and it is not unlikely that the composition retrieved is very different for the original community. A way to ensure that this difference is minimal is through the separate analysis of each PCR replicate. We used that approach and modeled the dissimilarity between each PCr replicate and the group centroid. This way of modeling the dissimilarity allows us to discard those PCR replicate that won't fit the normal distribution of dissimilarities. The output of this procedure will be a dataset with the same number of **Hashes** as before but with fewer **samples**.
+  
+  
+As with everything, we will start the process by loading the required packages and datasets.
+
+# Load the dataset and metadata
+
+
+
+```{r load libraries, include=FALSE}
+ knitr::opts_chunk$set(warning = FALSE)
+
+ library (tidyverse)
+ library (vegan)
+ #library (MASS)
+ library (proxy)
+library(reshape2)
+
+```
+
+We will load the ASV table and the metadata file. They are in the same folder so we use `list.files` to access them and a neat combination of `bind.rows` and `map(read_csv)`
+
+```{r load datasets - we will be doing that for all runs}
+
+Local_folder <- "/Users/zackgold/Documents/UCLA_phd/Projects/California/Taylor_honors/decontam"
+
+setwd("/Users/zackgold/Documents/UCLA_phd/Projects/California/Taylor_honors/decontam")
+
+#Paths to Files
+input_biom_path <- "/Users/zackgold/Documents/UCLA_phd/Projects/California/General_Channel_Islands/MPA_test_data/input/jan_2020_analysis/c19_fishcard_taxonomy_tables/Summary_by_percent_confidence/60/c19_fishcard_ASV_raw_taxonomy_60_edited.txt"
+input_meta_path <- "/Users/zackgold/Documents/UCLA_phd/Projects/California/General_Channel_Islands/MPA_test_data/input/jan_2020_analysis/decontam/mpa_metadata_02042020.txt"
+
+input_hash_path <- "/Users/zackgold/Documents/UCLA_phd/Projects/California/General_Channel_Islands/MPA_test_data/input/jan_2020_analysis/c19_fishcard_taxonomy_tables/Summary_by_percent_confidence/60/hashes_fish_card.txt"
+```
+
+```{r}
+mpa_taylor <- read.table(input_biom_path, header = 1, sep = "\t", stringsAsFactors = F)
+mpa_taylor$Miseq_run <- "miu"
+miu_names <- colnames(mpa_taylor)
+
+#Merge All Tables
+ASV.table <- mpa_taylor
+
+#Format for Long Data
+ASV.table$seq_number <- factor(ASV.table$seq_number)
+ASV.table$Miseq_run <- factor(ASV.table$Miseq_run)
+
+columns <- colnames(ASV.table)
+remove <- c("seq_number","sum.taxonomy","Miseq_run")
+
+gathercols <-  columns[! columns %in% remove] 
+
+# Convert to Long Data
+ASV.table <- gather(ASV.table, sample, reads, gathercols, factor_key=TRUE)
+ASV.table$reads <- as.numeric(ASV.table$reads)
+
+metadata <- read.table(input_meta_path, header = 1, sep = "\t", stringsAsFactors = F)
+
+Hash.key <- read.table(input_hash_path, header = 1, sep = "\t", stringsAsFactors = F)
+```
+
+The output of this process are a clean ASV table and a clean metadata file.
+
+## Cleaning Process 1: Estimation of *Tag-jumping* or sample *cross-talk*
+
+Before we modify our datasets on any way, we can calculate how many sequences that were only supposed to be in the positives control appeared in the environmental samples, and how many did the opposite. First we divide the dataset into positive control and environmental samples. Also create an ordered list of the Hashes present in the positive controls, for ease of plotting
+
+```{r split into two}
+
+#Remove Singletons (since we can not use them ever)
+#ASV.table %>%
+#  dplyr::group_by(seq_number) %>%
+#  mutate (TotalReadsperSample = sum(reads)) %>% 
+#  filter(., TotalReadsperSample > 1) %>% 
+#  dplyr::select(-TotalReadsperSample) -> ASV.table
+
+#Create list of control samples
+metadata %>% 
+  filter(Sample_Control=="control") %>% 
+  select(Samples) -> controls
+controls <- controls$Samples
+
+metadata %>% 
+  filter(Control_type=="Pos") %>% 
+  select(Samples) -> pos_controls
+pos_controls <- pos_controls$Samples
+
+metadata %>% 
+  filter(Control_type=="Neg") %>% 
+  select(Samples) -> neg_controls
+neg_controls <- neg_controls$Samples
+
+#New column that labels each ASV as from Positive (control) or Sample
+ASV.table %>% 
+  mutate(source = case_when(sample %in% pos_controls~"Positives",
+                            sample %in% neg_controls~"Blanks",
+                             TRUE ~"Samples")) -> ASV.table
+  
+#Convert to tibble
+ASV.table <- as_tibble(ASV.table)
+
+#Remove empty sequences
+ASV.table %>% 
+  filter(reads != 0)  -> ASV.table
+
+#Rename Columns and remove seq_number
+ASV.table %>%
+  mutate(Hash = as.character(seq_number),
+         sample = as.character(sample),
+         nReads = reads) %>% 
+  dplyr::select(-seq_number)  -> ASV.table
+
+ASV.table %>% as.data.frame() %>% 
+  filter(., Hash =="merged_c19_fishcard_2")
+
+
+ASV.table %>% 
+  filter (source != "Samples") %>%
+  dplyr::group_by(Hash) %>% 
+  dplyr::summarise(tot = sum(reads)) %>% 
+  arrange(desc(tot)) %>% 
+  pull(Hash) -> all.seqs.in.ctrls
+
+Hash.key %>% 
+  filter(Hashes %in% all.seqs.in.ctrls) %>% as.tibble() -> contam.species
+
+```
+```{r}
+ASV.table %>% 
+  group_by(sample) %>%
+  filter(., Miseq_run=="miu") %>% 
+  mutate (TotalReadsperSample = sum(nReads)) %>%
+  arrange(desc(TotalReadsperSample)) %>%
+  ggplot(., aes(x=sample, y=TotalReadsperSample, color=source)) + geom_point() +ggtitle("Read Count Across Samples") + theme(axis.text.x = element_text(angle = 90))
+```
+Now let's create a jumping vector. What proportion of the reads found in the positives control come from elsewhere, and what proportion of the reads in the samples come from the positives control.
+### Step 1: Nest the dataset and split it in positives and samples
+
+To streamline the process and make it easier to execute it similarly but independently on each Miseq run, we nest the dataset by run. 
+So Step1 is create a nested table so we can run this analysis on each run independently. 
+
+
+```{r nesting the dataset}
+ASV.table %>% 
+  dplyr::group_by(Miseq_run, source) %>% 
+  nest() %>% 
+  pivot_wider(names_from=source, values_from=data) -> ASV.nested 
+```
+
+That wasn't too complicated. Let's start a summary function that keeps track of our cleaning process
+
+```{r summary.file}
+
+how.many <- function(ASVtable, round){
+  ASVtable %>% ungroup() %>% 
+    dplyr::summarise(nsamples = n_distinct(sample),
+              nHashes = n_distinct(Hash),
+              nReads = sum(nReads), 
+              Stage = paste0("Step_", round)) %>% 
+    gather(starts_with("n"), value = "number", key = "Stat")
+}
+
+ASV.nested %>% 
+  ungroup() %>% 
+  dplyr::transmute(.,Miseq_run,Summary = purrr::map(Samples, ~ how.many(ASVtable = ., round = 0)))  -> ASV.summary
+
+ASV.summary$Summary
+#Elas had some samples in which all reads were removed
+```
+
+### Step 2: Model the composition of the positive controls of each run 
+
+
+We create a vector of the composition of each positive control and substract it from the environmental samples from their runs
+
+
+
+```{r jumping vector}
+
+ASV.nested %>% 
+  mutate (contam.tibble = purrr::map(Positives, 
+                              function(.x){
+                                .x %>%
+                                  ungroup() %>% 
+                                  group_by(sample) %>%
+                                  mutate (TotalReadsperSample = sum(nReads)) %>%
+                                  mutate (proportion = nReads/TotalReadsperSample) %>%
+                                  group_by(Hash) %>%
+                                  dplyr::summarise (vector_contamination = max(proportion))
+                                }) ) -> ASV.nested
+
+ASV.nested$contam.tibble %>% as.data.frame() %>% 
+  ggplot(aes(x= vector_contamination))+
+  geom_histogram()# Check how it looks like
+
+```
+
+
+### Step 3: Substract the composition of the positive controls from the environment samples
+
+The idea behind this procedure is that we know, for each run, how many reads from each Hash appeared in teh positive controls. These come from 2 processes: sequences we know should appear in the positive controls, and sequences that have *jumped* from the environment to the positive controls. With this procedure, we substract from every environmental sample the proportion of reads that jumped from elsewhere.
+
+```{r cleaning step 1}
+ASV.nested %>% 
+  ungroup() %>% 
+  mutate(cleaned.tibble = map2(Samples, contam.tibble, function(.x,.y){ 
+    .x %>%
+      dplyr::group_by (sample) %>%
+      mutate (TotalReadsperSample = sum (nReads)) %>%
+      left_join(.y, by = "Hash") %>%
+      mutate (Updated_nReads = ifelse (!is.na(vector_contamination),  nReads - (ceiling(vector_contamination*TotalReadsperSample)), nReads)) %>%
+      filter (Updated_nReads > 0) %>%
+      ungroup() %>% 
+      dplyr::select (sample, Hash, nReads = Updated_nReads)
+  })) -> ASV.nested
+
+
+#ASV.nested$cleaned.tibble %>% as.data.frame() %>% 
+#  arrange(desc(nReads)) %>% head(n=100) #Check how they look
+
+```
+Add this step to the summary table we were creating
+
+```{r summary.file.2}
+ASV.nested %>% 
+  transmute(Miseq_run, Summary.1 = purrr::map(cleaned.tibble, ~ how.many(ASVtable = .,round = "1.Jump"))) %>% 
+  left_join(ASV.summary) %>% #use left join when there are many miseq runs to join
+  bind_cols(ASV.summary) %>% 
+  mutate(Summary   = map2(Summary, Summary.1, bind_rows)) %>%
+  dplyr::select(-Summary.1) -> ASV.summary 
+
+ASV.summary$Summary
+```
+
+## Cleaning Process 2: **Discarding PCR replicates with low number of reads**
+
+We will fit the number of reads assigned to each sample to a normal distribution and discard those samples with a probability of 95% of not fitting in that distribution. The output would be a dataset with less samples and potentially less number of unique Hashes.
+
+```{r fitting nReads per sample}
+
+ASV.nested$cleaned.tibble %>% as.data.frame() %>% 
+  group_by(sample) %>%
+  dplyr::summarise(tot = sum(nReads)) %>% 
+  arrange(desc(tot))-> all.reps
+
+# Visualize
+
+all.reps %>%  
+  pull(tot) -> reads.per.sample
+
+names(reads.per.sample) <- all.reps %>% pull(sample)  
+
+normparams.reads <- MASS::fitdistr(reads.per.sample, "normal")$estimate
+
+all.reps %>%  
+  mutate(prob = pnorm(tot, normparams.reads[1], normparams.reads[2])) -> all.reps
+
+#  probs <- pnorm(all_pairwise_distances, normparams[1], normparams[2])
+
+outliers <- all.reps %>% 
+  filter(prob < 0.05  & tot < normparams.reads[1]) # changed to 0.05 to save the two samples
+
+ASV.nested %>% 
+  mutate(Step.1.low.reads = purrr::map (cleaned.tibble, ~ filter(.,!sample %in% outliers$sample) %>% ungroup)) -> ASV.nested
+
+ASV.nested %>% 
+  transmute(Miseq_run, Summary.1 = purrr::map(Step.1.low.reads, ~ how.many(ASVtable = .,round = "2.Low.nReads"))) %>% 
+  left_join(ASV.summary) %>% 
+  bind_cols(ASV.summary) %>% 
+  mutate(Summary   = map2(Summary, Summary.1, bind_rows)) %>%
+  dplyr::select(-Summary.1) -> ASV.summary 
+
+ASV.summary$Summary
+```
+
+
+
+
+## Cleaning Process 3: **Full clearance from Positive control influence**
+We will follow microDecon here
+### Remove the positive control hashes from the composition of the ASVs
+
+```{r cleaning.Step2}
+ASV.nested$Blanks[[1]] %>% 
+  select(sample,Hash, nReads) -> blankers
+rbind(blankers, ASV.nested$Step.1.low.reads[[1]]) -> step.1.1
+
+step.1.1 %>% 
+pivot_wider(names_from=sample, values_from=nReads, values_fill = list(nReads =0)) -> step.1.1_wide
+
+step.1.1_wide %>%
+  mutate(Hashes=Hash) %>% 
+  left_join(Hash.key) %>%
+  select(-Hashes) -> step.1.1_wide
+
+as.data.frame(step.1.1_wide) -> step.1.1_wide
+
+step.1.1_decon <- decon(data=step.1.1_wide, numb.blanks = 5,numb.ind=as.vector(c(3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3)), taxa = T)
+  
+step.1.1_decon$reads.removed %>% 
+  filter(., Hash == "merged_c19_fishcard_2")
+
+step.1.1_decon$decon.table
+
+columns <- colnames(step.1.1_decon$decon.table)
+remove <- c("Hash","sum.taxonomy")
+
+gathercols <-  columns[! columns %in% remove] 
+
+# Convert to Long Data
+step.1.1_decon_clean <- gather(step.1.1_decon$decon.table, sample, nReads, gathercols, factor_key=TRUE)
+
+step.1.1_decon_clean %>% as.tibble() %>% 
+  select(-sum.taxonomy) %>% 
+  filter(., sample != "Mean.blank") %>% 
+  filter(., nReads >0) -> step.1.1_decon_clean_tibble
+class(step.1.1_decon_clean_tibble)
+
+ASV.nested %>% 
+  mutate(Step2.tibble = list(step.1.1_decon_clean_tibble)) -> ASV.nested
+
+ASV.nested$Step2.tibble %>% 
+  as.data.frame() %>% 
+  mutate(., Hashes=Hash) %>% 
+  left_join(Hash.key) %>% 
+  filter(., sum.taxonomy == "Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus")
+# lots of reads deleted because 3 reads in a blank
+```
+
+
+### Remove the positive control hashes from the composition of the ASVs
+
+```{r Save Files Before Occupancy}
+step.1.1_decon$OTUs.removed
+saveRDS(step.1.1_decon, file="decon_table")
+
+saveRDS(ASV.nested, file = "Cleaning.before.Occ.model")
+
+ASV.nested <- readRDS(file ="Cleaning.before.Occ.model")
+
+ASV.nested %>% 
+  transmute(Miseq_run, Summary.1 = purrr::map(Step2.tibble, ~ how.many(ASVtable = .,round = "3.Positives"))) %>%
+  left_join(ASV.summary) %>% 
+  bind_cols(ASV.summary) %>% 
+  mutate(Summary = map2(Summary, Summary.1, bind_rows)) %>%
+  dplyr::select(-Summary.1) -> ASV.summary
+
+ASV.summary$Summary
+saveRDS(ASV.summary, file = "ASV.summary.rds")
+
+```
+
+#Split Taylor and Zack's data
+```{r}
+#Create list of control samples
+metadata %>% 
+  filter(Site=="Taylor") %>% 
+  select(Samples) -> Taylor_samples
+ Taylor_samples <-  Taylor_samples$Samples
+  
+ASV.nested$Step2.tibble %>% as.data.frame() %>% filter(., nReads>1) %>% 
+  ungroup() %>% 
+  filter(sample %in% Taylor_samples) -> taylor_step2.tibble
+
+ASV.nested$Step2.tibble %>% as.data.frame() %>% filter(., nReads>1) %>% 
+  ungroup() %>% 
+  filter(!sample %in% Taylor_samples) -> mpa_step2.tibble
+
+```
+
+
+```{r output file before occupancy}
+
+ASV.nested$Step2.tibble %>% 
+  as.data.frame() %>% 
+  filter(., nReads>1) %>% 
+  mutate(.,Hashes=Hash) %>%  
+  left_join(Hash.key) %>% 
+  dplyr::group_by(sum.taxonomy, sample) %>% 
+  dplyr::summarise(., total_reads = sum(nReads)) %>% #sum by taxonomy per site
+  spread(., key = "sample", value = "total_reads", fill = 0) -> ASV_sum.taxonomy
+ASV_sum.taxonomy -> ASV_sum_taxonomy
+saveRDS(ASV_sum.taxonomy, file = "preoccupancy.ASV.sum.taxonomy.rds")
+write_csv(ASV_sum_taxonomy ,"ASV_sum_taxonomy_pre_occupancy.csv")
+
+mpa_step2.tibble %>% 
+  mutate(.,Hashes=Hash) %>%  
+  left_join(Hash.key) %>% 
+  dplyr::group_by(sum.taxonomy, sample) %>% 
+  dplyr::summarise(., total_reads = sum(nReads)) %>% #sum by taxonomy per site
+  spread(., key = "sample", value = "total_reads", fill = 0) -> ASV_sum.taxonomy.mpa
+
+saveRDS(ASV_sum.taxonomy.mpa, file = "mpa.preoccupancy.ASV.sum.taxonomy.rds")
+write_csv(ASV_sum.taxonomy.mpa ,"ASV_sum_taxonomy_pre_occupancy.csv")
+
+taylor_step2.tibble %>% 
+  mutate(.,Hashes=Hash) %>%  
+  left_join(Hash.key) %>% 
+  dplyr::group_by(sum.taxonomy, sample) %>% 
+  dplyr::summarise(., total_reads = sum(nReads)) %>% #sum by taxonomy per site
+  spread(., key = "sample", value = "total_reads", fill = 0) -> ASV_sum.taxonomy.taylor
+
+saveRDS(ASV_sum.taxonomy.taylor, file = "taylor.preoccupancy.ASV.sum.taxonomy.rds")
+write_csv(ASV_sum.taxonomy.taylor ,"ASV_sum_taxonomy_pre_occupancy.csv")
+
+
+```
+
+## Cleaning Process 5: **Dissimilarity between PCR (biological) replicates**
+
+So, a second way of cleaning the dataset is to remove samples for which the dissimilarity between PCR replicates exceeds the normal distribution of dissimilarities.
+Sometimes the preparation of a PCR replicate goes wrong for a number of reasons - that leads to a particular PCR replicate to be substantially different to the other 2. In that case, we will remove the PCR replicate that has higher dissimilarity with the other two.
+
+The process starts by adding the biological information to the ASV table, then diving the dataset by their biological replicate. This will also remove any sample that is not included in the metadata, eg coming from a different project.
+
+```{r dissimilarity between PCR replicates}
+taylor_step2.tibble %>% 
+  mutate(Samples=sample) %>% 
+  ungroup() %>% 
+  left_join(metadata)-> cleaned.tibble.taylor
+
+```
+
+
+```{r quick check}
+# do all samples have a name
+cleaned.tibble.taylor %>% 
+  filter (sample == "")
+
+# do all of them have an original sample
+cleaned.tibble.taylor %>% 
+  filter(Site == "")
+
+
+# do all of them have a Hash
+cleaned.tibble.taylor %>% 
+  filter(is.na(Hash))
+
+# How many samples, how many Hashes
+cleaned.tibble.taylor %>% 
+  dplyr::summarise(n_distinct(sample), # 36
+            n_distinct(Hash))   # 2077
+
+
+# Let's check the levels of replication
+
+cleaned.tibble.taylor %>% 
+  separate(Names, into = c("Site_Taylor","Rep_Taylor") , sep = "\\.", remove = F) -> cleaned.tibble.taylor
+
+cleaned.tibble.taylor %>% 
+  group_by(Site_Taylor) %>% 
+  dplyr::summarise(nrep = n_distinct(sample)) %>%
+  filter (nrep == 3) #all
+  #filter (nrep == 2) # 0
+  #filter (nrep == 1) # 0
+
+
+```
+Taylor: 12 samples for which we have 3 water bottle replicates. We will get rid of those with only 1, as we can't estimate the PCR bias there.
+
+```{r remove single replicates}
+discard.1 <- cleaned.tibble.taylor %>% 
+  group_by(Site_Taylor) %>% 
+  mutate(nrep = n_distinct(sample)) %>% 
+  #filter (nrep == 2) # 25
+  filter (nrep == 1) %>% 
+  distinct(sample) %>% pull(sample)
+
+cleaned.tibble.taylor %>% 
+  filter(!sample %in% discard.1) -> cleaned.tibble.taylor
+
+```
+
+Anyway, let's have a visual representation of the dissimilarities between PCR replicates, biological replicates and everything else.
+
+```{r lets do the PCR replication}
+cleaned.tibble.taylor %>%
+  dplyr::group_by (sample) %>%
+  mutate (Tot = sum(nReads),
+          Row.sums = nReads / Tot) %>% 
+  dplyr::group_by (Hash) %>%
+  mutate (Colmax = max (Row.sums),
+          Normalized.reads = Row.sums / Colmax) -> cleaned.tibble.taylor #transforms raw number of reads to eDNA index
+
+
+tibble_to_matrix <- function (tb) {
+  
+  tb %>% 
+    group_by(sample, Hash) %>% 
+    dplyr::summarise(nReads = sum(Normalized.reads)) %>% 
+    spread ( key = "Hash", value = "nReads", fill = 0) -> matrix_1
+    samples <- pull (matrix_1, sample)
+    matrix_1 %>% 
+      ungroup() %>% 
+    dplyr::select ( - sample) -> matrix_1
+    data.matrix(matrix_1) -> matrix_1
+    dimnames(matrix_1)[[1]] <- samples
+    vegdist(matrix_1) -> matrix_1
+}
+
+tibble_to_matrix (cleaned.tibble.taylor) -> all.distances.full.taylor
+
+
+#names(all.distances.full)
+
+summary(is.na(names(all.distances.full.taylor)))
+
+
+```
+
+Let's make the pairwaise distances a long table
+```{r}
+
+as.tibble(subset(melt(as.matrix(all.distances.full.taylor)))) -> all.distances.melted.taylor
+
+summary(is.na(all.distances.melted.taylor$value))
+```
+
+```{r}
+# Now, create a three variables for all distances, they could be PCR replicates, BIOL replicates, or from the same site
+
+all.distances.melted.taylor %>%
+  separate(Var1, into = c("Time1","Location1") , sep = "\\.", remove = F) %>% 
+  separate(Var2, into = c("Time2","Location2") , sep = "\\.", remove = F) %>% 
+  unite(Time1, Location1, col= "station1", remove=F) %>% 
+  unite(Time2, Location2, col= "station2", remove=F) %>% 
+  mutate(Distance.type = case_when(Location1 == Location2 ~ "Same Site",
+                                    Time1 == Time2 ~ "Same Time Point",
+                                      TRUE ~ "Different Time Point"
+                                     )) %>%
+  dplyr::select(Sample1 = Var1, Sample2 = Var2 , value , Distance.type) %>%
+  filter (Sample1 != Sample2) -> all.distances.to.plot.taylor
+
+
+# Checking all went well
+sapply(all.distances.to.plot.taylor, function(x) summary(is.na(x)))
+
+all.distances.to.plot.taylor$Distance.type <- all.distances.to.plot.taylor$Distance.type  %>% fct_relevel( "Same.Site", "Same.Time", "Different.Time")
+
+  ggplot (all.distances.to.plot.taylor , aes (fill = Distance.type, x = value)) +
+  geom_histogram (position = "dodge", stat = 'density', alpha = 0.9) + xlim(0.5, 1) +
+ # facet_wrap( ~ Distance.type) +
+ labs (x = "Pairwise Dissimilarity", y = "Density" ,
+        fill = "Groups", title = "eDNA Pairwise Dissimilarity") +theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank())
+  
+```
+
+
+#Code for merging ASV tables
+```{r}
+
+#Hashes Unique Species
+Hash.key %>% 
+  distinct(.,sum.taxonomy) -> hashes_unique
+
+hashes_unique$number <- row.names(hashes_unique)
+hashes_unique$number <- paste0("taxon_",hashes_unique$number)
+row.names(hashes_unique)<-hashes_unique$number
+
+Hash.key %>% 
+  left_join(hashes_unique, by="sum.taxonomy") -> Hash.key.updated
+
+head(Hash.key.updated)
+
+#Create Data List for merging taxon files
+Hash.key.updated %>% 
+  mutate(Seq_number=Hashes) -> Hash.key.updated
+
+head(Hash.key.updated)
+
+taylor_step2.tibble %>% 
+  mutate(Seq_number=Hash) %>% 
+  left_join(Hash.key.updated, by="Seq_number") %>% 
+  dplyr::group_by(number,sample) %>%
+  dplyr::summarise(nReads=sum(nReads)) %>% 
+  spread(., sample, nReads) %>% #convert to wide data format
+  replace(is.na(.), 0) -> taylor_step2
+
+metadata %>% 
+  filter(., !(Samples %in% controls)) %>% 
+  filter(., (Samples %in% Taylor_samples)) %>% 
+  filter(.,!(Samples %in% colnames(taylor_step2))) %>% 
+  pull(Samples) -> columns2add
+
+taylor_step2 <- as.data.frame(taylor_step2)
+
+taylor_step2 %>% 
+     tibble::add_column(!!!set_names(as.list(rep(NA, length(columns2add))),nm=columns2add)) %>% 
+     replace(is.na(.), 0) -> taylor_step2
+
+row.names(taylor_step2) <- taylor_step2$number
+taylor_step2 %>% ungroup() %>% select(-number) -> taylor_step2
+
+dim(taylor_step2)
+
+datalist_taylor <- list(taylor_step2)
+```
+
+```{r}
+
+
+#Function for standardizing and merging eDNA taxon data.frames
+
+StdIndex <- function (x) {
+  
+  #Input: a LIST of objects, each of which is an eDNA taxon-read-count dataframe dataset. 
+  #Output: a list of two data.frames: single data.frame of taxon indices (each representing an ensemble index, an average of the  input data), and a second data.frame with standard errors for those ensemble estimates
+  
+  #Assumes taxa are in rows (with taxon name as row.name) and samples/sites are in columns. 
+  #Also assumes column names are consistent across datasets. 
+  
+  #dependencies: vegan
+  
+  SE<-function(x) sd(x, na.rm=T)/sqrt(sum(!is.na(x))) #calculate standard error of the mean
+  Col2RN<-function(df, x){row.names(df)<-df[,x]; df<-df[-x]; return(df)} #convert column to row.names
+  
+  # step 1: standardize taxon tables using wisonsin double-standardization
+  stdList<-lapply(x, vegan::wisconsin)
+  taxvec<-unlist(lapply(stdList, row.names))
+  
+  #step 2: aggregate by taxon name and calculate FUN (by default, mean)
+  taxonMeans<-aggregate(do.call(rbind, stdList), 
+                        by=list(taxvec), 
+                        FUN = mean, na.rm=T)
+  taxonMeans<-Col2RN(taxonMeans, 1)
+  
+  taxonSE<-aggregate(do.call(rbind, stdList),
+                     by=list(taxvec),
+                     FUN = SE)
+  taxonSE<-Col2RN(taxonSE, 1)
+  
+  return(list(IndexValues = taxonMeans, IndexSE =taxonSE))
+}
+
+
+results_taylor<-StdIndex(datalist_taylor)
+
+dim(results_taylor$IndexValues)
+
+Hash.key.updated.2 <- Hash.key.updated[!duplicated(Hash.key.updated$number), ]
+
+results_taylor[[1]]$number <- rownames(results_taylor[[1]])
+
+results_taylor[[1]] %>% 
+  left_join(Hash.key.updated.2, by="number") %>% 
+  select(-number,-Hashes,-Seq_number) -> results_taylor[[1]]
+
+results_taylor[[2]]$number <- rownames(results_taylor[[2]])
+
+results_taylor[[2]] %>% 
+  left_join(Hash.key.updated.2, by="number") %>% 
+  select(-number,-Hashes,-Seq_number) -> results_taylor[[2]]
+
+saveRDS(results_taylor,file="results_taylor_step_2_merged.RDS")
+write_csv(results_taylor[[1]] ,"ASV_taylor_edna_index.csv")
+
+```
