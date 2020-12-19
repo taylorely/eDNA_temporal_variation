@@ -1,0 +1,42 @@
+original_name	Names	Time_Point	Hour	Replicate	Time	Tide	Direction	High/Low	Lab	Sample_or_Control
+Blank.090617.S67.L001	Blank 090617	NA	NA	NA	NA	NA	NA	NA	field	control
+Blank.niskin.S68.L001	Blank Niskin	NA	NA	NA	NA	NA	NA	NA	field	control
+GC.tissue.S69.L001	Grass Carp Tissue	NA	NA	NA	NA	NA	NA	NA	lab	control
+GrassPCR.Neg.ctrl.S71.L001	Negative Control	NA	NA	NA	NA	NA	NA	NA	lab	control
+Grass.Pos.ctrl.S70.L001	Positive Control	NA	NA	NA	NA	NA	NA	NA	lab	control
+T0.A.S31.L001	T0-A	T00	T00	A	0	0.61m	rising 	slack	field	sample
+T0.B.S32.L001	T0-B	T00	T00	B	0	0.61m	rising 	slack	field	sample
+T0.C.S33.L001	T0-C	T00	T00	C	0	0.61m	rising 	slack	field	sample
+T1.A.S34.L001	T1-A	T01	T01.5	A	1.5	1.16m	rising 	high	field	sample
+T1.B.S35.L001	T1-B	T01	T01.5	B	1.5	1.16m	rising 	high	field	sample
+T1.C.S36.L001	T1-C	T01	T01.5	C	1.5	1.16m	rising 	high	field	sample
+T2.A.S37.L001	T2-A	T02	T03	A	3	1.46m	no change	high	field	sample
+T2.B.S38.L001	T2-B	T02	T03	B	3	1.46m	no change	high	field	sample
+T2.C.S39.L001	T2-C	T02	T03	C	3	1.46m	no change	high	field	sample
+T3.A.S40.L001	T3-A	T03	T04.5	A	4.5	1.37m	lowering	high	field	sample
+T3.B.S41.L001	T3-B	T03	T04.5	B	4.5	1.37m	lowering	high	field	sample
+T3.C.S42.L001	T3-C	T03	T04.5	C	4.5	1.37m	lowering	high	field	sample
+T4.A.S43.L001	T4-A	T04	T06	A	6	1.04m	lowering	slack	field	sample
+T4.B.S44.L001	T4-B	T04	T06	B	6	1.04m	lowering	slack	field	sample
+T4.C.S45.L001	T4-C	T04	T06	C	6	1.04m	lowering	slack	field	sample
+T5.A.S46.L001	T5-A	T05	T07.5	A	7.5	0.61m	lowering	low	field	sample
+T5.B.S47.L001	T5-B	T05	T07.5	B	7.5	0.61m	lowering	low	field	sample
+T5.C.S48.L001	T5-C	T05	T07.5	C	7.5	0.61m	lowering	low	field	sample
+T6.A.S49.L001	T6-A	T06	T09	A	9	0.37m	no change	low	field	sample
+T6.B.S50.L001	T6-B	T06	T09	B	9	0.37m	no change	low	field	sample
+T6.C.S51.L001	T6-C	T06	T09	C	9	0.37m	no change	low	field	sample
+T7.A.S52.L001	T7-A	T07	T10.5	A	10.5	0.55m	rising 	low	field	sample
+T7.B.S53.L001	T7-B	T07	T10.5	B	10.5	0.55m	rising 	low	field	sample
+T7.C.S54.L001	T7-C	T07	T10.5	C	10.5	0.55m	rising 	low	field	sample
+T8.A.S55.L001	T8-A	T08	T12	A	12	0.91m	rising 	slack	field	sample
+T8.B.S56.L001	T8-B	T08	T12	B	12	0.91m	rising 	slack	field	sample
+T8.C.S57.L001	T8-C	T08	T12	C	12	0.91m	rising 	slack	field	sample
+T9.A.S58.L001	T9-A	T09	T24	A	24	0.55m	rising 	low	field	sample
+T9.B.S59.L001	T9-B	T09	T24	B	24	0.55m	rising 	low	field	sample
+T9.C.S60.L001	T9-C	T09	T24	C	24	0.55m	rising 	low	field	sample
+T10.A.S61.L001	T10-A	T10	T48	A	48	0.37m	rising 	low	field	sample
+T10.B.S62.L001	T10-B	T10	T48	B	48	0.37m	rising 	low	field	sample
+T10.C.S63.L001	T10-C	T10	T48	C	48	0.37m	rising 	low	field	sample
+T11.A.S64.L001	T11-A	T11	T96	A	96	0.46m	no change	low	field	sample
+T11.B.S65.L001	T11-B	T11	T96	B	96	0.46m	no change	low	field	sample
+T11.C.S66.L001	T11-C	T11	T96	C	96	0.46m	no change	low	field	sample
