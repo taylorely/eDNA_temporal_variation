@@ -22,9 +22,9 @@ Outputs include the ASV.nested file which includes the raw ASV and read counts k
 
 Inputs
 
-taylor_pre_occupancy_results_sum.taxonomy_bio_reps_separate_eDNA_index.RDS - This file is a community-site table with columns as samples and rows as species. ASVs assigned to the same taxonomic rank had reads summed together prior to eDNA index calculations. 
+taylor_pre_occupancy_results_sum.taxonomy_bio_reps_separate_eDNA_index.RDS - This file is a community-site table with columns as samples and rows as species. ASVs assigned to the same taxonomic rank had reads summed together prior to eDNA index calculations. Located in the ouput R folder in the decontam folder.
 
-taylor_pre_occupancy_results_sum.taxonomy_bio_reps_separate_read_counts.RDS - This file is a community-site table with columns as samples and rows as species. ASVs assigned to the same taxonomic rank had reads summed together. 
+taylor_pre_occupancy_results_sum.taxonomy_bio_reps_separate_read_counts.RDS - This file is a community-site table with columns as samples and rows as species. ASVs assigned to the same taxonomic rank had reads summed together. Located in the ouput R folder in the decontam folder.
 
 metadata - MetaData_eDNA_degradation2020.txt
 
