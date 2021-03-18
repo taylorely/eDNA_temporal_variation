@@ -158,6 +158,8 @@ ASV.table_long$reads <- as.numeric(ASV.table_long$reads)
   ASV.table_long %>% 
     filter(., str_detect(seq_number,"merged")) %>% 
     filter(., !str_detect(seq_number,"unmerged")) -> ASV.table_used
+
+
 ```
 
 
@@ -1186,6 +1188,59 @@ pre_results_reads %>%
 
 saveRDS(pre_results_reads,file=here("decontam","Output_R","taylor_pre_occupancy_results_asv_separate_read_counts.RDS"))
 write_csv(pre_results_reads ,here("decontam","Output_csv","taylor_pre_occupancy_results_asv_separate_read_counts.csv"))
+```
+
+#General Run Summary Stats
+```{r}
+
+# Mean and Stdev of ASVs of read depth post decontamination
+
+ASV.table_used %>% 
+  filter(., sample %in% Taylor_samples) %>% 
+  left_join(hash.key.updated) %>% 
+  dplyr::group_by(sample) %>%
+  dplyr::summarise(nReads=sum(reads)) %>% 
+  ungroup() %>% 
+  dplyr::summarise(max(nReads), min(nReads), mean(nReads), sd(nReads))
+
+
+# Mean and Stdev of read depth post decontamination
+ASV.nested$Step3.tibble[[1]] %>% 
+  filter(., sample %in% Taylor_samples) %>% 
+  left_join(hash.key.updated) %>% 
+  dplyr::group_by(sample) %>%
+  dplyr::summarise(nReads=sum(nReads)) %>% 
+  ungroup() %>% 
+  dplyr::summarise(max(nReads), min(nReads), mean(nReads), sd(nReads))
+  
+
+```
+
+```{r}
+
+
+# Mean and Stdev of ASVs per taxon post decontamination
+ASV.nested$Step3.tibble[[1]] %>% 
+  filter(., sample %in% Taylor_samples) %>% 
+  left_join(hash.key.updated) %>% 
+  dplyr::group_by(sum.taxonomy) %>%
+  dplyr::summarise(nASVs_per_species=n_distinct(seq_number)) %>% 
+  ungroup() %>% arrange(desc(nASVs_per_species)) %>% 
+  filter(., sum.taxonomy !=c("NA", "Eukaryota;Chordata;Actinopteri;;;;")) %>% 
+  dplyr::summarise(max(nASVs_per_species), min(nASVs_per_species), mean(nASVs_per_species), sd(nASVs_per_species))
+
+# Mean and Stdev of ASVs per species post decontamination
+ASV.nested$Step3.tibble[[1]] %>% 
+  filter(., sample %in% Taylor_samples) %>% 
+  left_join(hash.key.updated) %>% 
+  separate(.,sum.taxonomy, into =c("D","P","C","O","F","G","S"), sep=";", remove=F) %>% 
+             filter(., S !="") %>% 
+  dplyr::group_by(sum.taxonomy) %>%
+  dplyr::summarise(nASVs_per_species=n_distinct(seq_number)) %>% 
+  ungroup() %>% arrange(desc(nASVs_per_species)) %>% 
+  dplyr::summarise(max(nASVs_per_species), min(nASVs_per_species), mean(nASVs_per_species), sd(nASVs_per_species))
+  
+
 ```
 
 ##### Output eDNA Index Data
