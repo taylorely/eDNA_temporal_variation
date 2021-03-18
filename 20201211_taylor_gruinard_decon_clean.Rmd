@@ -1241,6 +1241,17 @@ ASV.nested$Step3.tibble[[1]] %>%
   dplyr::summarise(max(nASVs_per_species), min(nASVs_per_species), mean(nASVs_per_species), sd(nASVs_per_species))
   
 
+
+# Mean and Stdev of ASVs per taxon post decontamination
+ASV.nested$Step3.tibble[[1]] %>% 
+  filter(., sample %in% Taylor_samples) %>% 
+  left_join(hash.key.updated) %>% 
+  dplyr::group_by(sum.taxonomy) %>%
+  dplyr::summarise(nASVs_per_species=n_distinct(seq_number)) %>% 
+  ungroup() %>% arrange(desc(nASVs_per_species)) -> asv_counter
+
+write.csv(asv_counter, file=here("data","Taxonomy_ASV_counts.csv"))
+here()
 ```
 
 ##### Output eDNA Index Data

@@ -1,0 +1,110 @@
+"","sum.taxonomy","nASVs_per_species"
+"1",NA,364
+"2","Eukaryota;Chordata;Actinopteri;;;;",37
+"3","Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus",30
+"4","Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis",20
+"5","Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans",18
+"6","Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;",17
+"7","Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher",16
+"8","Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus",13
+"9","Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis",12
+"10","Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax",12
+"11","Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;Oncorhynchus tshawytscha",10
+"12","Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica",9
+"13","Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax",8
+"14","Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Labrisomus;Labrisomus xanti",7
+"15","Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus;",7
+"16","Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;",6
+"17","Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon",6
+"18","Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus",6
+"19","Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaena;Scorpaena guttata",6
+"20","Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi",5
+"21","Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus",5
+"22","Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea",5
+"23","Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens",5
+"24","Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Paraclinus;Paraclinus integripinnis",4
+"25","Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Amblygaster;Amblygaster sirm",4
+"26","Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax",4
+"27","Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;",4
+"28","Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus",3
+"29","Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Caranx;",3
+"30","Eukaryota;Chordata;Actinopteri;Clupeiformes;Dussumieriidae;Etrumeus;Etrumeus teres",3
+"31","Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Choerodon;Choerodon anchorago",3
+"32","Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;",3
+"33","Eukaryota;Chordata;Actinopteri;Perciformes;;;",3
+"34","Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys coenosus",3
+"35","Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis",2
+"36","Eukaryota;Chordata;Actinopteri;Acanthuriformes;Acanthuridae;Acanthurus;Acanthurus xanthopterus",2
+"37","Eukaryota;Chordata;Actinopteri;Acanthuriformes;Luvaridae;Luvarus;Luvarus imperialis",2
+"38","Eukaryota;Chordata;Actinopteri;Blenniiformes;Blenniidae;Hypsoblennius;Hypsoblennius jenkinsi",2
+"39","Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Alloclinus;Alloclinus holderi",2
+"40","Eukaryota;Chordata;Actinopteri;Chaetodontiformes;Chaetodontidae;Chaetodon;Chaetodon humeralis",2
+"41","Eukaryota;Chordata;Actinopteri;Cypriniformes;Cyprinidae;Ctenopharyngodon;Ctenopharyngodon idella",2
+"42","Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Lythrypnus;Lythrypnus zebra",2
+"43","Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Typhlogobius;Typhlogobius californiensis",2
+"44","Eukaryota;Chordata;Actinopteri;Lutjaniformes;;;",2
+"45","Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus novemfasciatus",2
+"46","Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Clinocottus;Clinocottus analis",2
+"47","Eukaryota;Chordata;Actinopteri;Perciformes;Scorpaenidae;Scorpaenodes;Scorpaenodes xyris",2
+"48","Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys stigmaeus",2
+"49","Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Sarda;Sarda chiliensis",2
+"50","Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Melichthys;Melichthys niger",2
+"51","Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica",2
+"52","Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;;",2
+"53","Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni",1
+"54","Eukaryota;Chordata;Actinopteri;;Pomacentridae;Azurina;Azurina hirundo",1
+"55","Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;",1
+"56","Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis alta",1
+"57","Eukaryota;Chordata;Actinopteri;Anguilliformes;;;",1
+"58","Eukaryota;Chordata;Actinopteri;Anguilliformes;Nettastomatidae;Facciolella;Facciolella gilbertii",1
+"59","Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Leuresthes;Leuresthes tenuis",1
+"60","Eukaryota;Chordata;Actinopteri;Beloniformes;Belonidae;Cololabis;Cololabis saira",1
+"61","Eukaryota;Chordata;Actinopteri;Beloniformes;Exocoetidae;Cheilopogon;Cheilopogon pinnatibarbatus",1
+"62","Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Rimicola;Rimicola muscarum",1
+"63","Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Decapterus;Decapterus muroadsi",1
+"64","Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus fasciatus",1
+"65","Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Spratelloides;Spratelloides delicatulus",1
+"66","Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Rhinogobiops;Rhinogobiops nicholsii",1
+"67","Eukaryota;Chordata;Actinopteri;Istiophoriformes;Xiphiidae;Xiphias;Xiphias gladius",1
+"68","Eukaryota;Chordata;Actinopteri;Kurtiformes;Apogonidae;Apogon;Apogon guadalupensis",1
+"69","Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;",1
+"70","Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Scarus;Scarus niger",1
+"71","Eukaryota;Chordata;Actinopteri;Lutjaniformes;Haemulidae;Anisotremus;Anisotremus davidsonii",1
+"72","Eukaryota;Chordata;Actinopteri;Lutjaniformes;Haemulidae;Brachygenys;Xenistius californiensis",1
+"73","Eukaryota;Chordata;Actinopteri;Lutjaniformes;Haemulidae;Microlepidotus;Microlepidotus inornatus",1
+"74","Eukaryota;Chordata;Actinopteri;NA;Malacanthidae;Caulolatilus;Caulolatilus princeps",1
+"75","Eukaryota;Chordata;Actinopteri;NA;Sciaenidae;Umbrina;Umbrina roncador",1
+"76","Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena argentea",1
+"77","Eukaryota;Chordata;Actinopteri;Ophidiiformes;Bythitidae;Cataetyx;Cataetyx rubrirostris",1
+"78","Eukaryota;Chordata;Actinopteri;Perciformes;Agonidae;;",1
+"79","Eukaryota;Chordata;Actinopteri;Perciformes;Anoplopomatidae;Anoplopoma;Anoplopoma fimbria",1
+"80","Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri",1
+"81","Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;Mycteroperca jordani",1
+"82","Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Mycteroperca;Mycteroperca xenarcha",1
+"83","Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax nebulifer",1
+"84","Eukaryota;Chordata;Actinopteri;Perciformes;Stichaeidae;Chirolophis;Chirolophis decoratus",1
+"85","Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Cynoglossidae;Symphurus;Symphurus atricaudus",1
+"86","Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus",1
+"87","Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus",1
+"88","Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Scomber;Scomber japonicus",1
+"89","Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Thunnus;Thunnus alalunga",1
+"90","Eukaryota;Chordata;Actinopteri;Spariformes;Nemipteridae;Pentapodus;Pentapodus bifasciatus",1
+"91","Eukaryota;Chordata;Actinopteri;Syngnathiformes;Centriscidae;Macroramphosus;",1
+"92","Eukaryota;Chordata;Actinopteri;Syngnathiformes;Mullidae;Pseudupeneus;Pseudupeneus grandisquamis",1
+"93","Eukaryota;Chordata;Actinopteri;Syngnathiformes;Syngnathidae;Syngnathus;Syngnathus leptorhynchus",1
+"94","Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Molidae;Mola;Mola mola",1
+"95","Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Tetraodontidae;Canthigaster;Canthigaster solandri",1
+"96","Eukaryota;Chordata;Aves;Charadriiformes;Laridae;Larus;",1
+"97","Eukaryota;Chordata;Aves;Charadriiformes;Laridae;Larus;Larus occidentalis",1
+"98","Eukaryota;Chordata;Aves;Galliformes;Phasianidae;Gallus;Gallus gallus",1
+"99","Eukaryota;Chordata;Chondrichthyes;Carcharhiniformes;Scyliorhinidae;Cephaloscyllium;Cephaloscyllium ventriosum",1
+"100","Eukaryota;Chordata;Chondrichthyes;Heterodontiformes;Heterodontidae;Heterodontus;Heterodontus francisci",1
+"101","Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Dasyatidae;Pteroplatytrygon;Pteroplatytrygon violacea",1
+"102","Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Urolophidae;Urolophus;Urolophus halleri",1
+"103","Eukaryota;Chordata;Chondrichthyes;Orectolobiformes;Rhincodontidae;Rhincodon;Rhincodon typus",1
+"104","Eukaryota;Chordata;Chondrichthyes;Pristiformes/Rhiniformes group;Rhinobatidae;Pseudobatos;Pseudobatos productus",1
+"105","Eukaryota;Chordata;Mammalia;Artiodactyla;Bovidae;Bos;Bos taurus",1
+"106","Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;Grampus;Grampus griseus",1
+"107","Eukaryota;Chordata;Mammalia;Artiodactyla;Suidae;Sus;Sus scrofa",1
+"108","Eukaryota;Chordata;Mammalia;Carnivora;Otariidae;Zalophus;Zalophus californianus",1
+"109","Eukaryota;Chordata;Mammalia;Rodentia;Cricetidae;Peromyscus;Peromyscus maniculatus",1
