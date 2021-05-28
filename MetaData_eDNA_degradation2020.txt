@@ -1,0 +1,101 @@
+Names	Sample	Transect	Time_Point	Hour	Replicate	Time	Tide	Direction	High/Low	Lab	Sample_or_Control	Date	Time_Label
+Blank.090617.S67.L001	Blank 090617	NA	NA	NA	NA	NA	NA	NA	NA	field	control	NA	NA
+Blank.niskin.S68.L001	Blank Niskin	NA	NA	NA	NA	NA	NA	NA	NA	field	control	NA	NA
+GC.tissue.S69.L001	Grass Carp Tissue	NA	NA	NA	NA	NA	NA	NA	NA	lab	control	NA	NA
+GrassPCR.Neg.ctrl.S71.L001	Negative Control	NA	NA	NA	NA	NA	NA	NA	NA	lab	control	NA	NA
+Grass.Pos.ctrl.S70.L001	Positive Control	NA	NA	NA	NA	NA	NA	NA	NA	lab	control	NA	NA
+T0.A	DK0.A	Dock	T00	T00	A	0	0.61m	rising 	slack	field	sample	9/6/17 6:00	T00
+T0.B	DK0.B	Dock	T00	T00	B	0	0.61m	rising 	slack	field	sample	9/6/17 6:00	 
+T0.C	DK0.C	Dock	T00	T00	C	0	0.61m	rising 	slack	field	sample	9/6/17 6:00	 
+T1.A	DK1.A	Dock	T01	T01.5	A	1.5	1.16m	rising 	high	field	sample	9/6/17 7:30	T01
+T1.B	DK1.B	Dock	T01	T01.5	B	1.5	1.16m	rising 	high	field	sample	9/6/17 7:30	 
+T1.C	DK1.C	Dock	T01	T01.5	C	1.5	1.16m	rising 	high	field	sample	9/6/17 7:30	 
+T2.A	DK2.A	Dock	T02	T03	A	3	1.46m	no change	high	field	sample	9/6/17 9:00	T02
+T2.B	DK2.B	Dock	T02	T03	B	3	1.46m	no change	high	field	sample	9/6/17 9:00	 
+T2.C	DK2.C	Dock	T02	T03	C	3	1.46m	no change	high	field	sample	9/6/17 9:00	 
+T3.A	DK3.A	Dock	T03	T04.5	A	4.5	1.37m	lowering	high	field	sample	9/6/17 10:30	T03
+T3.B	DK3.B	Dock	T03	T04.5	B	4.5	1.37m	lowering	high	field	sample	9/6/17 10:30	 
+T3.C	DK3.C	Dock	T03	T04.5	C	4.5	1.37m	lowering	high	field	sample	9/6/17 10:30	 
+T4.A	DK4.A	Dock	T04	T06	A	6	1.04m	lowering	slack	field	sample	9/6/17 12:00	T04
+T4.B	DK4.B	Dock	T04	T06	B	6	1.04m	lowering	slack	field	sample	9/6/17 12:00	 
+T4.C	DK4.C	Dock	T04	T06	C	6	1.04m	lowering	slack	field	sample	9/6/17 12:00	 
+T5.A	DK5.A	Dock	T05	T07.5	A	7.5	0.61m	lowering	low	field	sample	9/6/17 13:30	T05
+T5.B	DK5.B	Dock	T05	T07.5	B	7.5	0.61m	lowering	low	field	sample	9/6/17 13:30	 
+T5.C	DK5.C	Dock	T05	T07.5	C	7.5	0.61m	lowering	low	field	sample	9/6/17 13:30	 
+T6.A	DK6.A	Dock	T06	T09	A	9	0.37m	no change	low	field	sample	9/6/17 15:00	T06
+T6.B	DK6.B	Dock	T06	T09	B	9	0.37m	no change	low	field	sample	9/6/17 15:00	 
+T6.C	DK6.C	Dock	T06	T09	C	9	0.37m	no change	low	field	sample	9/6/17 15:00	 
+T7.A	DK7.A	Dock	T07	T10.5	A	10.5	0.55m	rising 	low	field	sample	9/6/17 16:30	T07
+T7.B	DK7.B	Dock	T07	T10.5	B	10.5	0.55m	rising 	low	field	sample	9/6/17 16:30	 
+T7.C	DK7.C	Dock	T07	T10.5	C	10.5	0.55m	rising 	low	field	sample	9/6/17 16:30	 
+T8.A	DK8.A	Dock	T08	T12	A	12	0.91m	rising 	slack	field	sample	9/6/17 18:00	T08
+T8.B	DK8.B	Dock	T08	T12	B	12	0.91m	rising 	slack	field	sample	9/6/17 18:00	 
+T8.C	DK8.C	Dock	T08	T12	C	12	0.91m	rising 	slack	field	sample	9/6/17 18:00	 
+T9.A	DK9.A	Dock	T09	T24	A	24	0.55m	rising 	low	field	sample	9/7/17 6:00	T09
+T9.B	DK9.B	Dock	T09	T24	B	24	0.55m	rising 	low	field	sample	9/7/17 6:00	 
+T9.C	DK9.C	Dock	T09	T24	C	24	0.55m	rising 	low	field	sample	9/7/17 6:00	 
+T10.A	DK10.A	Dock	T10	T48	A	48	0.37m	rising 	low	field	sample	9/8/17 6:00	T10
+T10.B	DK10.B	Dock	T10	T48	B	48	0.37m	rising 	low	field	sample	9/8/17 6:00	 
+T10.C	DK10.C	Dock	T10	T48	C	48	0.37m	rising 	low	field	sample	9/8/17 6:00	 
+T11.A	DK11.A	Dock	T11	T96	A	96	0.46m	no change	low	field	sample	9/9/17 6:00	T11
+T11.B	DK11.B	Dock	T11	T96	B	96	0.46m	no change	low	field	sample	9/9/17 6:00	 
+T11.C	DK11.C	Dock	T11	T96	C	96	0.46m	no change	low	field	sample	9/9/17 6:00	 
+BF1.00	BF0.A	Cove	T00	T00	A	0	0.08m	no change	low	field	sample	7/24/16 7:00	T00
+BF2.00	BF0.B	Cove	T00	T00	B	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+BF3.00	BF0.C	Cove	T00	T00	C	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+BF4.00	BF0.D	Cove	T00	T00	D	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+BF5.00	BF0.E	Cove	T00	T00	E	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+BF1.06	BF1.A	Cove	T01	T06	A	6	1.40m	rising 	high	field	sample	7/24/16 13:00	T01
+BF2.06	BF1.B	Cove	T01	T06	B	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+BF3.06	BF1.C	Cove	T01	T06	C	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+BF4.06	BF1.D	Cove	T01	T06	D	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+BF5.06	BF1.E	Cove	T01	T06	E	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+BF1.12	BF2.A	Cove	T02	T12	A	12	0.64m	lowering	low	field	sample	7/24/16 19:00	T02
+BF2.12	BF2.B	Cove	T02	T12	B	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+BF3.12	BF2.C	Cove	T02	T12	C	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+BF4.12	BF2.D	Cove	T02	T12	D	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+BF5.12	BF2.E	Cove	T02	T12	E	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+BF1.24	BF3.A	Cove	T03	T24	A	24	0.24m	lowering	low	field	sample	7/25/16 7:00	T03
+BF2.24	BF3.B	Cove	T03	T24	B	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+BF3.24	BF3.C	Cove	T03	T24	C	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+BF4.24	BF3.D	Cove	T03	T24	D	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+BF5.24	BF3.E	Cove	T03	T24	E	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+BF1.48	BF4.A	Cove	T04	T48	A	48	0.48m	lowering	low	field	sample	7/26/16 7:00	T04
+BF2.48	BF4.B	Cove	T04	T48	B	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+BF3.48	BF4.C	Cove	T04	T48	C	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+BF4.48	BF4.D	Cove	T04	T48	D	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+BF5.48	BF4.E	Cove	T04	T48	E	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+BF1.120x	BF5.A	Cove	T05	T120	A	120	1.07m	no change	high	field	sample	7/29/16 7:00	T05
+BF2.120x	BF5.B	Cove	T05	T120	B	120	1.07m	no change	high	field	sample	7/29/16 7:00	 
+BF3.120x	BF5.C	Cove	T05	T120	C	120	1.07m	no change	high	field	sample	7/29/16 7:00	 
+BF4.120x	BF5.D	Cove	T05	T120	D	120	1.07m	no change	high	field	sample	7/29/16 7:00	 
+BF5.120x	BF5.E	Cove	T05	T120	E	120	1.07m	no change	high	field	sample	7/29/16 7:00	 
+IN1.00	FC0.A	Channel	T00	T00	A	0	0.08m	no change	low	field	sample	7/24/16 7:00	T00
+IN2.00	FC0.B	Channel	T00	T00	B	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+IN3.00	FC0.C	Channel	T00	T00	C	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+IN4.00	FC0.D	Channel	T00	T00	D	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+IN5.00	FC0.E	Channel	T00	T00	E	0	0.08m	no change	low	field	sample	7/24/16 7:00	 
+IN1.06	FC1.A	Channel	T01	T06	A	6	1.40m	rising 	high	field	sample	7/24/16 13:00	T01
+IN2.06	FC1.B	Channel	T01	T06	B	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+IN3.06	FC1.C	Channel	T01	T06	C	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+IN4.06	FC1.D	Channel	T01	T06	D	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+IN5.06	FC1.E	Channel	T01	T06	E	6	1.40m	rising 	high	field	sample	7/24/16 13:00	 
+IN1.12	FC2.A	Channel	T02	T12	A	12	0.64m	lowering	low	field	sample	7/24/16 19:00	T02
+IN2.12	FC2.B	Channel	T02	T12	B	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+IN3.12	FC2.C	Channel	T02	T12	C	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+IN4.12	FC2.D	Channel	T02	T12	D	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+IN5.12	FC2.E	Channel	T02	T12	E	12	0.64m	lowering	low	field	sample	7/24/16 19:00	 
+IN1.24	FC3.A	Channel	T03	T24	A	24	0.24m	lowering	low	field	sample	7/25/16 7:00	T03
+IN2.24	FC3.B	Channel	T03	T24	B	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+IN3.24	FC3.C	Channel	T03	T24	C	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+IN4.24	FC3.D	Channel	T03	T24	D	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+IN5.24	FC3.E	Channel	T03	T24	E	24	0.24m	lowering	low	field	sample	7/25/16 7:00	 
+IN1.48	FC4.A	Channel	T04	T48	A	48	0.48m	lowering	low	field	sample	7/26/16 7:00	T04
+IN2.48	FC4.B	Channel	T04	T48	B	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+IN3.48	FC4.C	Channel	T04	T48	C	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+IN4.48	FC4.D	Channel	T04	T48	D	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+IN5.48	FC4.E	Channel	T04	T48	E	48	0.48m	lowering	low	field	sample	7/26/16 7:00	 
+IN2.120x	FC5.B	Channel	T05	T120	B	120	1.07m	no change	high	field	sample	7/29/16 7:00	T05
+IN3.120x	FC5.C	Channel	T05	T120	C	120	1.07m	no change	high	field	sample	7/29/16 7:00	 
+IN5.120x	FC5.E	Channel	T05	T120	E	120	1.07m	no change	high	field	sample	7/29/16 7:00	 
+Cat.poscntl_1	Positive_Control2	NA	NA	NA	NA	NA	NA	NA	NA	lab	control	NA	NA
